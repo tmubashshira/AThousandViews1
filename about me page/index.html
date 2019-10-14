@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#59230a;
+  overflow-x: hidden;
+  padding-top: 200px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.title{
+font-size: 50px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 30px; /* Same as the width of the sidenav */
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  padding-top: 130px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1 {
+  font-size: 5rem;
+  line-height: 5.5rem;
+}
+</style>
+
+<link href="about.css" rel="stylesheet">
+<link href='site.css' rel="stylesheet">
+
+</head>
+<body>
+
+<div class="sidenav">
+  <div class="title">
+  <p><font align="center"><a href="#about">A Thousand Views</a></font></p>
+  </div>
+  <p><font align="center"><a href="#about">About</a></font></p>
+  <p><font align="center"><a href="#education">Education</a></font></p>
+  <p><font align="center"><a href="#interests">Interests</a></font></p>
+  <p><font align="center"><a href="#contact">Contact Me</a></font></p>
+</div>
+
+<div class="main" id="about">
+  <h1 class="mb-0"><font color="#59230a">TASNEEM</font>
+          <span class="text-primary">MUBASHSHIRA</span>
+  </h1>
+  <div class="subheading mb-5" >3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
+          <a href="tmubashshira@gmail.com">name@email.com</a>
+  </div>
+  <p class="lead mb-5">As salamualaikum,</p>
+        <p class="lead mb-5">I am Tasneem Mubashshira, a very ordinary muslim girl from Bangladesh.My hometown is in Sylhet, the most peaceful division of Bangladesh in my eyes.</p>
+        
+      
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h3>MIST</h3>
+      <p><font color="black">B.S.C in Computer Science and Engineering</p>
+	  <p><font color="black">2018-till now</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>National Ideal College</h3>
+      <p><font color="black">H.S.C level</p>
+	  <p><font color="black">August 2015 - May 2017</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>Faizur Rahman Ideal Institute </h3>
+      <p><font color="black">S.S.C level</font></p>
+	  <p><font color="black">January 2005 - January 2015</p>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a computer science's Student, I love to stay at my home, maybe reading books, or writing diaries.You'll be very surprised but I don't like to sleep a lot. basically I love to read, and that can be about anything.</p>
+        <p class="mb-0">I don't like watching movies or TV seriese.. maybe its weird, but I like to read webtoon, comic. I am a huge fan of anime.</p>
+        <p class="mb-0">I have a special interest in my religion from my very childhood.I have a great affection to islamic books, seriese, lectures.I am a huge fan of Nouman Ali Khan and Mufti Menk.</p>
+        <p>And at last, of course, I have a great affection for Writing. I never published any of my writings but I have 42 diaries. I write daily diaries since class 6.My 7th diary is running right now. I'd love to share some of my thoughts to everybody. and that's why this is my new interest, WRITING BLOGS.</p>
+      </div>
+    </section>
+	<!-- contact form -->
+	
+	<div class="wrapper" >
+      <div class="company-info">
+        <h3>CONTACT US</h3>
+      </div>
+      <div class="contact">
+        <div class="alert">Your message has been sent, Redirecting to Home</div>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p class="full">
+            <label>your comment</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">contact me</button>
+          </p>
+        </form>
+      </div>
+    </div>
+	<p>
+	<a href="showtable.html">click here to show contacts</a>
+	</p>
+	
+  <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase.js"></script> 
+
+  <script src="main.js"></script>
+
+      </div>
+    </section>
+  </div>
+<!-- Bootstrap core JavaScript -->
+  
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html> 
