@@ -12,5 +12,5 @@ firebase.auth().onAuthStateChanged(function (user) {
 
 function logout_call(){
   firebase.auth().signOut();
-  document.location.href = "./homepage.html?Logout=Successful";
+  document.location.href = "./index.html?Logout=Successful";
 }
