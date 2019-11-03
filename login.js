@@ -25,7 +25,7 @@ signin_button.addEventListener('click',e=>{
   const aut = firebase.auth().signInWithEmailAndPassword(email, password).then(cred=>{
     console.log("Logged In");
 	console.log(email,password);
-    document.location.href = "./homepage.html?Login=Successful";
+    document.location.href = "./index.html?Login=Successful";
   }).catch(e=>{
     console.log("Error!  id: "+e.message);
   });
